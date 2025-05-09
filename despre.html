@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale-scale=1.0">
+    <head>
+    <style>
+        html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #22242f;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+      }
+
+     @keyframes fadeIn{
+        to {
+          opacity: 1;
+        }
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+       
+        height: 200%;
+        
+      }
+
+      .titlu{
+        flex: 1;
+        color: white;
+        text-align: center;
+        /* border: 1px solid black; */
+        margin: 150px;
+      }
+
+      .formular{
+        flex: 5 ;
+        display: inline-flex;
+        /* border: 1px solid black; */
+        color: white;
+      }
+
+      .textformular{
+        flex: 10;
+        /* background-color: aqua; */
+        margin: 40px;
+      }
+
+      .formularr{
+        flex: 4;
+        margin-bottom: 10px;
+        margin-right: 100px;
+        
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 30px;
+        /* background-color: aliceblue; */
+        background-color: black;
+      }
+
+      .faq{
+        flex: 5;
+        color: white;
+        border: 2px solid #c4f582;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+
+      button{
+        transition: all 0.7s ease-in-out;
+      }
+      button:hover{
+        transform: scale(0.8);
+      }
+
+      </style>
+      
+    </head>
+      <body>
+        <div class="container">
+          <div class="titlu">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 50px;">Contact</h1>
+            <p style="font-size:25px;">Pentru orice întrebări sau pentru a discuta despre proiectul dumneavoastră, nu ezitați să ne contactați. Echipa Elevate Web Solutions este aici pentru a vă oferi suportul necesar. Ne puteți trimite un e-mail la contact@elevatewebsolutions.ro sau ne puteți suna la numărul de telefon 0123 456 789. De asemenea, suntem activi pe rețelele sociale, unde ne puteți urmări pentru ultimele noutăți și inspirații. Așteptăm cu nerăbdare să colaborăm cu dumneavoastră și să transformăm împreună ideile în realitate!</p>
+          </div>
+          
+          <div class="formular">
+            
+            <div class="textformular">
+              <p style="font-size: 30px;">Simțiți-vă liber să ne contactați folosind informațiile de mai jos sau prin formularul de contact furnizat.</p>
+              <p style="font-size: 30px;">elev.creativ@example.com<br>0741 234 567</p>
+            </div>
+
+            <div class="formularr">
+              <form style="margin: 20px;">
+                  <label for="name">Nume</label><br>
+                  <input  /required type="text" style="background-color:#22242f; color:white; 3px solid #22242f; border-radius: 10px; width: 300px;height: 40px;" >
+                  <br><br>
+                  <label for="email">Adresa de mail</label><br>
+                  <input  /required type="text" style="background-color:#22242f; border: 3px solid #22242f;  color:white; border-radius: 10px; width: 300px;height: 40px;">
+                    <br><br>  
+                  <label for="mesaj">Mesaj</label><br>
+                  <textarea style="background-color: #22242f;color: white;border: 3px solid #22242f; border-radius: 10px;height: 200px;width: 300px;"></textarea>
+                  <button type="submit" style="align-items: center;  background-color:#c4f582;cursor:pointer; border:#c4f582;border-radius: 40px; font-weight: bold; height: 50px; width: 200px;">Trimite</button>
+                </form>
+            </div>
+          
+          
+          </div>
+        
+          <div class="faq">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;margin-left: 10px;">FAQ</h1>
+            <h2>Ce tipuri de site-uri creați?</h2>
+            <p>Creăm site-uri personalizate, adaptate nevoilor specifice ale fiecărui client, inclusiv site-uri de prezentare, magazine online și bloguri.</p>
+            
+            <h2>Oferiți servicii de optimizare SEO?</h2>
+            <p>Da, oferim servicii de optimizare pentru motoarele de căutare (SEO) pentru a îmbunătăți vizibilitatea online a site-urilor clienților noștri.</p>
+            
+            <h2>Ce fel de suport tehnic oferiți după lansarea site-ului?</h2>
+            <p>Oferim mentenanță și suport tehnic continuu pentru a ne asigura că site-urile clienților funcționează impecabil.</p>
+          
+            <h2>Cum colaborați cu clienții pentru a crea site-urile?</h2>
+            <p>Colaborăm îndeaproape cu clienții pentru a înțelege viziunea lor și a crea site-uri care să reflecte perfect identitatea lor, printr-o abordare colaborativă.</p>
+            
+          </div>
+        
+        </div>
+      </body>
+    
+    </html>
